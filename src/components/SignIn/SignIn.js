@@ -35,6 +35,12 @@ class SignIn extends React.Component {
         })
     }
     
+    handleKeyDown = (event) => {
+        if (event.key == "enter") {
+            this.onSubmitSignIn();
+        } 
+    }
+    
     render () {
         const { onRouteChange } = this.props;
         return (
@@ -63,6 +69,7 @@ class SignIn extends React.Component {
                         <div className="">
                         <input 
                             onClick={this.onSubmitSignIn}
+                            onKeyDown={this.handleKeyDown}
                             className="b ph3 pv2 input-reset ba b--black bg-transparent grow pointer f6 dib" 
                             type="submit" 
                             value="Sign in"/>
