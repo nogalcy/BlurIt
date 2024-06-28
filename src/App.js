@@ -85,7 +85,7 @@ class App extends Component {
   
   onButtonSubmit = () => {
     this.setState({imageurl: this.state.input})
-    fetch('http://localhost:3000/imageurl', {
+    fetch('https://blurit-api.onrender.com/imageurl', {
       method: 'post',
       headers: {'Content-Type': 'application/json'},
       body: JSON.stringify({
@@ -96,7 +96,7 @@ class App extends Component {
     .then(result => {
       if (result && result.outputs) {
 
-        fetch('http://localhost:3000/image', {
+        fetch('https://blurit-api.onrender.com/image', {
           method: 'put',
           headers: {'Content-Type': 'application/json'},
           body: JSON.stringify({
