@@ -5,7 +5,7 @@ const ImageInputForm = ({ onInputChange, onButtonSubmit }) => {
     return (
         <div>
             <p className='f3'>
-                {'Input an Image URL and let us find the faces in it!'}
+                {'Input an image URL and we will blur the faces FOR you!'}
             </p>
             <div className='center'>
                 <div className='form center pa4 br3 shadow-5'>
