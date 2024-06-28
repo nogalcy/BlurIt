@@ -1,0 +1,20 @@
+
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+
+#inputimage {
+    display: block;
+    width: 500px; /* Ensure the image size fits your layout */
+    height: auto;
+}
+
+.bounding-box {
+    position: absolute;
+    overflow: hidden;
+    pointer-events: none;
+    backdrop-filter: blur(20px);
+    transform: scale(1.1); 
+}

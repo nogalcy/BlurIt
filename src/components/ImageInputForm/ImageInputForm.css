@@ -1,0 +1,19 @@
+/* Form {
+    width: 500px;
+    height: 100px;
+    margin: 0 auto;
+} */
+
+button {
+    background-color: #554994;
+    border-color: #FFB3B3;
+}
+
+.form {
+    font-family: 'AstroSpace', Courier, monospace;
+    width: 700px;
+    background: linear-gradient(45deg, transparent 10%,  #554994 10% , #554994 20%, transparent 20%, transparent 80%,  #554994  80%,  #554994 90%, transparent 90%), linear-gradient(135deg,  transparent 10%,  #554994 10% , #554994 20%, transparent 20%, transparent 80%,  #554994  80%,  #554994 90%,  transparent 90%), radial-gradient(circle at top, #554994 20% , transparent 21%), radial-gradient(circle at bottom, #554994 20% , transparent 21%), radial-gradient(circle at right, #554994 20% , transparent 21%), radial-gradient(circle at left, #554994 20% , transparent 21%);
+    background-size: 3em 3em;
+    background-color:linear-gradient(89deg, #FFBCD1 0%, #D885A3 80%);
+    opacity: 1;
+}
