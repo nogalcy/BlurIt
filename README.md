@@ -1,3 +1,5 @@
+### Note that this is the Frontend only as it is easier to deploy on render when the front and back end are separate repos. The backend code is [here](https://github.com/nogalcy/BlurIt-api)
+
 # BlurIt
 https://blurit.onrender.com/
 
